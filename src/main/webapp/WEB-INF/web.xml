@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>switchServlet</servlet-name>
+  	<display-name>switchServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.bay.servlet.switchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>switchServlet</servlet-name>
+  	<url-pattern>/switch.do</url-pattern>
+  </servlet-mapping>
+</web-app>
